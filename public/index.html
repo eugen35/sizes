@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<meta name="viewport">
+	</head>
+	<body>
+		<script type='text/javascript'>
+			//alert(document.documentElement.clientHeight);
+			//alert(window.innerHeight);
+			//alert(window.visualViewport.height);
+            var div = document.createElement('div');
+            div.innerHTML='Hello!';
+            div.style.backgroundColor='green';
+            div.style.height=document.documentElement.clientHeight/2;
+            div.style.width=document.documentElement.clientWidth/2;
+            document.body.appendChild(div);
+		</script>
+	</body>
+</html>
